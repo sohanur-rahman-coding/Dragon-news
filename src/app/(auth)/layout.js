@@ -1,0 +1,13 @@
+import Navbar from "@/componant/shared/Navbar";
+import React from "react";
+
+const AuthLayout = ({ children }) => {
+  return (
+    <>
+      <Navbar></Navbar>
+      {children}
+    </>
+  );
+};
+
+export default AuthLayout;
